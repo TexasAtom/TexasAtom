@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-surface text-white antialiased;
+}
+
+input, select, textarea {
+  @apply bg-card border border-zinc-700 rounded px-3 py-2;
+}
